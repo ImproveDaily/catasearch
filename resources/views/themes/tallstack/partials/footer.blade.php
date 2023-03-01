@@ -3,12 +3,10 @@
 <footer class="@if(Request::is('/')){{ 'bg-white' }}@else{{ 'bg-gray-50' }}@endif">
     <div class="px-8 pt-16 mx-auto lg:px-12 xl:px-16 max-w-7xl">
         <div class="flex flex-wrap items-start justify-between pb-20">
-            <a href="#_" class="flex items-center w-auto text-lg font-bold md:w-1/6">
+            <a href="/" class="flex items-center w-auto text-lg font-bold md:w-1/6">
                 <div class="relative flex items-center text-blue-500 leading-tighter">
-                    <svg class="w-9 h-9" viewBox="0 0 73 109" xmlns="http://www.w3.org/2000/svg"><path d="M0 21.174v12.11l5.186-3.011 5.242-3.044 5.186-3.011 5.24-3.044 5.188-3.012 5.242-3.044v36.334l-5.242 3.044-5.188 3.011-5.24 3.044-5.186 3.011v-12.11l5.186-3.012 5.24-3.044 5.188-3.012 2.563-1.494V28.778l-2.563 1.494-5.188 3.011-5.24 3.044-5.186 3.013-5.236 3.049L.006 45.4v36.333l5.186-3.012 5.242-3.044 5.186-3.011 5.24-3.044 5.188-3.012 5.242-3.044v36.334l-5.242 3.042 5.242 3.044L36.476 109l5.23-3.046 5.187-3.013-5.188-3.01v-12.11l5.188 3.012 5.246 3.045 5.186 3.011 5.24-3.044 5.188-3.011 5.24-3.044V69.655l-5.24-3.041-5.187-3.012-5.24-3.044-5.187-3.012-5.235-3.045-2.51-1.457v12.11l7.752 4.501 5.186 3.012 5.24 3.044v6.023l-5.24 3.043-5.186-3.011-5.242-3.044-5.199-3.011V39.377l5.188 3.012 5.241 3.044 5.186 3.012 5.241 3.043 5.186 3.013 5.242 3.042v-12.11l-5.24-3.044-5.188-3.012-5.24-3.044-5.187-3.011-5.23-3.044-5.199-3.012v-12.11l5.199 3.011 5.242 3.044 5.186 3.012 5.24 3.043 5.187 3.012L73 33.322v-12.11l-5.24-3.045-5.188-3.011-5.24-3.044-5.193-3.014-5.235-3.041-5.199-3.013L36.465 0l-5.186 3.013-5.242 3.044-5.187 3.011-5.241 3.044-5.186 3.011-5.23 3.044L0 21.174zM29 77v11.705l-2.628 1.443-5.317 2.91L15.683 96l-5.316-2.91L5 90.147l5.373-2.941 5.316-2.91 5.372-2.942 5.318-2.91L29 77z" fill="currentColor" fill-rule="evenodd"></path></svg>
                     <div class="flex flex-col items-start ml-2">
-                        <span class="text-2xl font-bold leading-none tracking-wide">WAVE</span>
-                        <span class="text-xs font-normal">Tallstack Theme</span>
+                        <img class= "object-fit: contain" src="/storage/themes/February2018/CataSearch_Logo_nobg.png" class="w-32 text-sm sm:w-auto">
                     </div>
                 </div>
             </a>
